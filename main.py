@@ -23,7 +23,7 @@ total = round(bill / percentCal)
 print(f"total = {total}\n")
 print(type(total))
 
-each = round((total / people), 2)
+each = round(total / people, 2)
 
 print(f"each = {each}\n")
 print(type(each))
