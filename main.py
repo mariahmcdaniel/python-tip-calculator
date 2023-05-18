@@ -28,4 +28,4 @@ each = round(total / people, 2)
 # print(f"each = {each}\n")
 # print(type(each))
 
-print(f"The total bill with the tip included comes to {total}, split between {people} people - each person should pay {each}.")
+print(f"The total bill with the tip included comes to ${total}, split between {people} people - each person should pay ${each}.")
