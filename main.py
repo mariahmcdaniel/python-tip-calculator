@@ -2,8 +2,8 @@ print("Welcome to the tip calculator!\n")
 
 bill = float(input("What is the total price of the bill? $"))
 
-print(f"bill = {bill}\n")
-print(type(bill))
+# print(f"bill = {bill}\n")
+# print(type(bill))
 
 percent = int(input("\nWhat percentage of the bill would you like to give for the tip? (10, 12, or 15)\n"))
 
