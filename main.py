@@ -8,7 +8,7 @@ print(f"percent = {percent}\n")
 
 people = int(input("How many people are splitting the bill?\n"))
 
-print(people)
+print(f"people = {people}\n")
 
 total = round(bill / ((percent / 100) + 1) , 2)
 
