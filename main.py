@@ -5,7 +5,7 @@ bill = float(input("What is the total price of the bill?\n"))
 # print(f"bill = {bill}\n")
 # print(type(bill))
 
-percent = int(input("What percentage of the bill would you like to give for the tip? 10, 12, or 15\n"))
+percent = int(input("What percentage of the bill would you like to give for the tip? (10, 12, or 15)\n"))
 
 # print(f"percent = {percent}\n")
 # print(type(percent))
