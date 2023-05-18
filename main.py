@@ -18,7 +18,7 @@ people = int(input("How many people are splitting the bill?\n"))
 print(f"people = {people}\n")
 print(type(people))
 
-total = round(bill / percentCal, 2)
+total = round(bill * percentCal, 2)
 
 print(f"total = {total}\n")
 print(type(total))
