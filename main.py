@@ -9,3 +9,5 @@ people = int(input("How many people are splitting the bill?"))
 total = round(bill / (percent / 100 + 1) , 2)
 
 each = round( total / people , 2)
+
+print(f"The total bill with the tip included comes to {total}, split between {people} people - each person should pay {each}.")
