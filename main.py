@@ -7,3 +7,5 @@ percent = int(input("What percentage of the bill would you like to give for the 
 people = int(input("How many people are splitting the bill?"))
 
 total = round(bill / (percent / 100 + 1) , 2)
+
+each = round( total / people , 2)
