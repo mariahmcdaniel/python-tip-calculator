@@ -14,6 +14,8 @@ print(f"people = {people}\n")
 
 total = round(bill / ((percent / 100) + 1) , 2)
 
+print(f"total = {total}\n")
+
 each = round( total / people , 2)
 
 print(f"The total bill with the tip included comes to {total}, split between {people} people - each person should pay {each}.")
