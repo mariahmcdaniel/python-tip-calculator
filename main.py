@@ -10,12 +10,15 @@ percent = int(input("What percentage of the bill would you like to give for the 
 print(f"percent = {percent}\n")
 print(type(percent))
 
+percentCal = round(percent/100 + 1, 2)
+print(percentCal)
+
 people = int(input("How many people are splitting the bill?\n"))
 
 print(f"people = {people}\n")
 print(type(people))
 
-total = round(bill / ((percent / 100) + 1) , 2)
+total = round(bill / percentCal)
 
 print(f"total = {total}\n")
 print(type(total))
